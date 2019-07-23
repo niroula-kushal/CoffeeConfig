@@ -1,0 +1,20 @@
+{
+    "name": "rehmat/coffee-config",
+    "description": "Config reader",
+    "type": "librart",
+    "authors": [
+        {
+            "name": "Rehmat",
+            "email": "niroulakushal31@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.2"
+    },
+    "autoload": {
+        "Coffee\\Config\\" : "src/"
+    },
+    "autoload-dev": {
+        "Coffee\\Config\\Test\\" : "test/"
+    }
+}
