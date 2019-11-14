@@ -8,6 +8,7 @@
             "email": "niroulakushal31@gmail.com"
         }
     ],
+    "license": "MIT",
     "require": {
         "phpunit/phpunit": "^8.2"
     },
