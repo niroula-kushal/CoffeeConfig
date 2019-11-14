@@ -12,9 +12,13 @@
         "phpunit/phpunit": "^8.2"
     },
     "autoload": {
-        "Coffee\\Config\\" : "src/"
+    	"psr-4" : { 	   		
+	        "Coffee\\Config\\" : "src/"
+    	}
     },
     "autoload-dev": {
-        "Coffee\\Config\\Test\\" : "test/"
+    	"psr-4" : { 	   		
+	        "Coffee\\Config\\Test\\" : "test/"
+    	}
     }
 }
